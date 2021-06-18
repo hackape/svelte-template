@@ -1,0 +1,10 @@
+{
+  "printWidth": 120,
+  "svelteSortOrder": "scripts-markup-styles",
+  "svelteIndentScriptAndStyle": false,
+  "svelteBracketNewLine": true,
+  "singleQuote": true,
+  "semi": false,
+  "trailingComma": "es5",
+  "arrowParens": "avoid"
+}

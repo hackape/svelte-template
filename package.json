@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "rename": "node scripts/rename.js",
+    "mkcert": "mkcert -key-file .vscode/key.pem -cert-file .vscode/cert.pem localhost 127.0.0.1 ::1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.7",
+    "@types/lodash": "^4.14.170",
+    "assert": "2.0.0",
+    "autoprefixer": "^10.2.6",
+    "buffer": "6.0.3",
+    "events": "3.3.0",
+    "postcss": "^8.3.0",
+    "postcss-load-config": "^3.0.1",
+    "process": "0.11.10",
+    "stream-browserify": "3.0.0",
+    "stylus": "^0.54.8",
+    "svelte": "^3.38.2",
+    "svelte-preprocess": "^4.7.3",
+    "tailwindcss": "^2.1.4",
+    "typescript": "^4.3.2",
+    "util": "0.12.3",
+    "vite": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "luxon": "^1.27.0"
+  }
+}
